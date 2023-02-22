@@ -1,0 +1,251 @@
+.inline {
+    display: inline-block;
+    width: 95vw;
+}
+
+ul{
+    background-color: rgb(255, 255, 255);
+    height: 3vh;
+    width: 70vw;
+    list-style: none;
+    display:inline;  
+    vertical-align: middle;
+}
+
+li{
+    display: inline;
+    padding: 30px;
+    line-height: 0%;
+    float: right;
+    vertical-align: middle;
+    font-size: calc(15px + 0.390625vw);
+}
+
+.h2 {
+    font-size: calc(24px + 0.390625vw);
+}
+
+.logo {
+    width:4vw;
+    height: 6.8vh;
+    float: left;
+    display: inline;
+    padding: 10px;
+}
+    
+.heroSpc {
+    background-color:#694583;
+    height:52vh;
+    width: 62vw;
+    padding: 0%;
+    display: inline-block;   
+   
+
+} 
+
+.heroImg {
+    width: 30vw;
+    height: 52vh;
+    padding: 0%;
+    vertical-align: top;
+    float: inline-end
+   }
+
+.h1_1 {
+    color: white;
+    font-size: calc(24px + 0.390625vw);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 20px 20px;
+    text-align: center;
+    width: 65vw;
+
+}
+
+body{
+    color: white;
+    font-size:small;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 2vh;
+    padding: 25px 15px;
+    text-align:center;
+    height: fit-content;
+   
+
+
+}
+
+button {
+    background-color: #44509C ;
+    color: white;
+    border: none;
+    font-size: calc(15px + 0.390625vw);
+    padding: 20px;
+    border-style: outset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 25px;
+    vertical-align: bottom;
+    
+    
+}
+
+footer {
+    position:relative;
+    bottom: 0;
+    width: 90vw;
+    height: 4vh;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.mySkills {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #44509C;
+}
+
+.mySkills_img_1 {
+    width: 15vw;
+    height: 15vw;
+    padding: 10px;
+}
+
+.mySkills_img_2 {
+    width: 20vw;
+    height: 15vw;
+    
+}
+
+.mySkills_img_3 {
+    width: 15vw;
+    height: 15vw;
+    padding: 10px;
+}
+
+.h1_2 {
+    font-size: calc(24px + 0.390625vw);
+    color: #44509C;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexChild {
+    width: 33%;
+    padding: auto;
+    
+}
+
+.flexChild2 {
+    width: 50%;
+    padding: 50px;
+    
+}
+
+.contact_img {
+    padding-bottom: 50px;
+    width: 15vw;
+    height: 15vw;
+}
+
+.text {
+    border:#ffffff;
+    padding: 30px;
+    background-color:#44509C;
+    color: #ffffff;
+    border-radius: 25px;
+    margin: auto;
+    box-shadow: 10px 15px #694583;
+    height: auto;
+    width: 25vw;
+    
+}
+
+.myWork {
+    
+    background-color:#694583;
+}
+
+.workGrid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0px 5%;
+    grid-template-areas: 
+    "item1"
+    "item2"
+    "item3"
+    "item4";
+}
+
+.gif {
+    border-radius: 25px;
+    width: 30vw;
+}
+
+.h1_3 {
+    color: white;
+    font-size: 48px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    line-height: 90px;
+    padding: 40px 15px;
+    text-align: center;
+    text-decoration: underline;
+}
+h4 {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: calc(15px + 0.390625vw);
+    text-decoration: underline;
+}
+
+p {
+    font-size: calc(15px + 0.390625vw);
+    line-height: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+  }
+
+  #section1 {
+  font-language-override: normal;
+}
+  
+#section2 {
+  font-language-override: normal;
+}
+  
+#section3 {
+  font-language-override: normal;
+}
+
+#section4 {
+    font-language-override: normal;
+  }
+
+
+@media (max-width: 600px)
+{
+    .flexContainer{ 
+
+        
+        display: flex;
+        flex-direction:column;
+       
+    }
+    
+    .flexChild{
+        
+        width: 100%;
+    }
+}
